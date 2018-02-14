@@ -1,0 +1,13 @@
+page-login {
+    text-align: center;
+
+    ion-content {
+        background-color: color($colors, blue--agualu) !important;
+
+        .logo {
+            width: 100%;
+            padding-top: 25%;
+            padding-bottom: 10%;
+        }
+    }
+}

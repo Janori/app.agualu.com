@@ -1,0 +1,29 @@
+page-welcome {
+    text-align: center;
+
+    ion-content {
+        background-color: color($colors, blue--agualu) !important;
+
+        .logo {
+            width: 100%;
+            padding-top: 30%;
+            padding-bottom: 10%;
+            img {
+                max-width: 150px;
+            }
+        }
+
+        .access-options {
+            button {
+                width: 90%;
+                background: #fff;
+                color: color($colors, blue--agualu);
+                font-weight: bold;
+                max-height: 40px !important;
+                border-radius: 3px !important;
+                box-shadow: 0px 1px 5px #555;
+                margin: 10px 0;
+            }
+        }
+    }
+}
