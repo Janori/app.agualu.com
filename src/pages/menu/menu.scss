@@ -1,3 +1,13 @@
 page-menu {
-
+    ion-content {
+        position: relative !important;
+        .item {
+            color: color($colors, gray--agualu);
+            background-image: none;
+            border: none !important;
+            .item-inner {
+                border: none !important;
+            }
+        }
+    }
 }
