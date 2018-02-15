@@ -2,12 +2,49 @@ page-login {
     text-align: center;
 
     ion-content {
-        background-color: color($colors, blue--agualu) !important;
-
         .logo {
             width: 100%;
-            padding-top: 25%;
-            padding-bottom: 10%;
+            padding-top: 20%;
+
+            img {
+                width: 110px;
+            }
+        }
+
+        form {
+            ion-item {
+                background: transparent !important;
+
+                .item-inner {
+                    border-bottom: 1.5px solid  color($colors, text--agualu) !important;;
+                }
+
+                &:first-child,
+                &:last-child {
+                    border-top: none !important;
+                    border-bottom: none !important;
+                }
+
+            }
+            div.forgot-password {
+                width: 100%;
+                padding-top: 25px;
+                a {
+                    color: color($colors, text--agualu);
+                    font-size: 16px;
+                }
+            }
+
+            button {
+                width: 80%;
+                background: color($colors, text--agualu) !important;
+                color: #fff;
+                font-weight: bold;
+                max-height: 40px !important;
+                border-radius: 2px !important;
+                box-shadow: 0px 1px 5px #555;
+                margin: 10px 0;
+            }
         }
     }
 }

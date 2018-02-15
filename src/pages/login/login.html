@@ -1,6 +1,6 @@
 <ion-content padding>
     <div class="logo">
-        <img src="assets/imgs/agualu.png">
+        <img src="assets/imgs/logo-mini.png">
     </div>
     <form (ngSubmit)="onSubmit()">
         <ion-list>
@@ -13,7 +13,9 @@
                 <ion-label floating>Contraseña</ion-label>
                 <ion-input type="password" [(ngModel)]="credentials.password" name="password" required></ion-input>
             </ion-item>
-
+            <div class="forgot-password">
+                <a (click)="forgotPassword()">¿Olvidaste la contraseña</a>
+            </div>
         </ion-list>
         <button type="submit" class="login" ion-button strong>Iniciar sesión</button>
     </form>
