@@ -12,20 +12,6 @@ page-login {
         }
 
         form {
-            ion-item {
-                background: transparent !important;
-
-                .item-inner {
-                    border-bottom: 1.5px solid  color($colors, text--agualu) !important;;
-                }
-
-                &:first-child,
-                &:last-child {
-                    border-top: none !important;
-                    border-bottom: none !important;
-                }
-
-            }
             div.forgot-password {
                 width: 100%;
                 padding-top: 25px;

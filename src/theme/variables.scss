@@ -41,6 +41,7 @@ $colors: (
   dark:       #222,
   blue--agualu: rgb(0, 206, 243),
   text--agualu: rgb(0, 181, 233),
+  gray--agualu: rgb(160, 160, 160)
 );
 
 
@@ -88,3 +89,4 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+$toolbar-background: rgb(0, 206, 243);

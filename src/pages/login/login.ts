@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, AlertController, LoadingController, Loading, } from 'ionic-angular';
+import { PhoneValidationPage } from '../phone-validation/phone-validation';
+
 
 /**
  * Generated class for the LoginPage page.
@@ -56,7 +58,7 @@ export class LoginPage {
 
         this.showLoading();
         if(this.credentials.username == 'admin' && this.credentials.password == 'secret') {
-            this.navCtrl.setRoot(null);
+            this.navCtrl.setRoot(PhoneValidationPage);
         } else {
              this.showError('Credenciales incorrectas');
         }

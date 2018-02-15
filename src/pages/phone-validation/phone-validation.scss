@@ -1,0 +1,37 @@
+page-phone-validation {
+    ion-content {
+        form {
+            padding-top: 20% !important;
+            p {
+                color: color($colors, gray--agualu);
+                font-size: 18px;
+                text-align: justify;
+                padding: 15px;
+            }
+
+            ion-grid {
+                position: absolute;
+                bottom: 0px !important;
+                left: 5px !important;
+
+                button {
+                    width: 90%;
+                    color: #fff;
+                    font-weight: bold;
+                    max-height: 40px !important;
+                    border-radius: 2px !important;
+                    box-shadow: 0px 1px 5px #555;
+                    margin: 10px 0;
+                    
+                    &.cancel {
+                        background: color($colors, gray--agualu) !important;
+                    }
+
+                    &.accept {
+                        background: color($colors, text--agualu);
+                    }
+                }
+            }
+        }
+    }
+}

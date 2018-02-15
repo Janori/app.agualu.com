@@ -4,14 +4,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 // import { HomePage } from '../pages/home/home';
-import { LoginPage } from '../pages/login/login';
+// import { LoginPage } from '../pages/login/login';
 // import { WelcomePage } from '../pages/welcome/welcome';
+import { PhoneValidationPage } from '../pages/phone-validation/phone-validation';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = LoginPage;
+  rootPage:any = PhoneValidationPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

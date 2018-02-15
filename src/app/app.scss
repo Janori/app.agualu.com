@@ -16,10 +16,28 @@
 // automatically applied to the <body> element in the app.
 
 
-page-login {
+page-login,
+page-phone-validation {
     ion-content {
         background: url('../assets/imgs/BG.png');
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+form {
+    ion-item {
+        background: transparent !important;
+
+        .item-inner {
+            border-bottom: 1.5px solid  color($colors, text--agualu) !important;;
+        }
+
+        &:first-child,
+        &:last-child {
+            border-top: none !important;
+            border-bottom: none !important;
+        }
+
     }
 }
